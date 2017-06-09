@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/**
+ * This file will be the head of all the other SCSS files in the project.
+ *
+ * Use it to customise the look and feel of the app.
+ */
+/*!
+  Ionicons, v2.0.1
+  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
+  https://twitter.com/benjsperry  https://twitter.com/ionicframework
+  MIT License: https://github.com/driftyco/ionicons
+
+  Android-style icons originally built by Google’s
+  Material Design Icons: https://github.com/google/material-design-icons
+  used under CC BY http://creativecommons.org/licenses/by/4.0/
+  Modified icons to fit ionicon’s grid from original.
+*/}
+
+a.item.item-text-wrap.item-icon-left.item-icon-right {
+    background-color: #019ca3;
+}
+
+.bar-content {
+   background-color: #b5d334;
+ }
+ 
+ 
+ .list.list-inset.login-home {
+    background-color: rgba(132, 56, 56, 0);
+}
+
+
+.form-home .padding > .button.button-block:first-child {
+    margin-top: 0;
+    background-color: #b0c516;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-color: rgba(230, 230, 230, 0);
+    border-radius: 0px;
+}
+
+.item-icon-right .icon-accessory, .item.item-howto.item-icon-right .icon-accessory, .mm-grades-table .item-howto.item-icon-right.itemcenter .icon-accessory {
+    right: 0px;
+    background-color: #ef473a;
+    font-size: 18px;
+}
+
+.list-home {
+	margin-top : 10px;
+}
+
+
+
+
+
+
+ .card.col.home {
+   margin: 10px 10px;
+ }
+ .card.col.home h1{text-align: center;}
+ .card.col.home h2{text-align: center;}
+
+ 
+element.style {
+    left: 61px;
+    right: 61px;
+}
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  .button.button-positive {
+    border-color: #b5d334;
+    background-color: #b5d334;
+    color: #fff;
+	  border-radius: 0;
+}
+
+.action-sheet .button {
+    color: #009ca3;
+}
+.action-sheet .button:hover {
+    color: #b5d334;
+	    background-color: #2d2d2d;
+}
+
+
+.action-sheet-cancel {
+    border-radius: 0px;
+	background-color: rgba(0, 0, 0, 0.98);
+    border-color: #b5d334;
+    border-radius: 0;
+    text-transform: uppercase;
+	color : #fff !important;
+
+}
+
+
+.action-sheet-title {
+    padding: 16px;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #009ca3;
+}
+
+i.icon {
+    color: #009ca3 !important;
+}
+
+
+nav ul li a i.icon {
+    color: #d6d6d6 !important;
+}

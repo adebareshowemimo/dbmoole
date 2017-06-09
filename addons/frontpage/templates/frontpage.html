@@ -1,0 +1,42 @@
+<ion-view>
+    <ion-nav-title>{{ 'mma.frontpage.sitehome' | translate }}</ion-nav-title>
+    <ion-content mm-state-class padding="true">
+	        <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="frontpageLoaded" on-refresh="doRefresh()">
+        </ion-refresher>
+	 <div class="list card">
+
+					
+
+					  <div class="item item-body">
+						<img class="full-image" src="intro-bg.jpg">
+						
+						<div class="item item-text-wrap">
+							<h3> Welcome to Diamond Academy Mobile Learning Platform.</h3>
+						</div>
+					  </div>
+
+					</div>
+
+        <mm-loading hide-until="frontpageLoaded" loading-padding-top="loadingPaddingTop">
+
+            <mma-frontpage-item ng-repeat="item in items" name="{{item}}"></mma-frontpage-item>
+			
+			
+			<div class="list list-home">
+				<a href="#" class="item item-thumbnail-left">
+
+				  <img src="intro-bg.jpg">
+				  <h2>Product Knowledge</h2>
+				  <h4>On the go access to all Diamond Bank Product Offerings</h4>
+				</a>
+
+			  </div>
+			
+         
+
+            <p class="padding" ng-if="!hasContent">{{ 'mm.course.nocontentavailable' | translate }}</p>
+        </mm-loading>
+    </ion-content>
+	
+
+</ion-view>
