@@ -5,10 +5,10 @@
         id        = "com.mobile.diamondacdemy"
         versionCode = "20180"
         version   = "3.3.0">
-    <name>Diamond Academy Learning Mobile</name>
+    <name>DB Learning App</name>
 
     <description>
-        Diamond Bank Academy Mobile Learning App
+        Diamond Bank Academy Mobile Learning App for Associate Staff and Agents
     </description>
 
     <author href="http://moodle.com" email="ashowemimo@diamondbank.com">
