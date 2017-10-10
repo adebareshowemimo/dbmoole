@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.diamondbankacademy.mlearn"
         versionCode = "20180"
-        version   = "3.3.0">
+        version   = "3.3.2">
     <name>Diamond Academy Learning Mobile</name>
 
     <description>
