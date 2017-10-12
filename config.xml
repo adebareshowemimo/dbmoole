@@ -4,19 +4,19 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.diamondbankacademy.mlearn"
         versionCode = "20180"
-        version   = "3.3.2">
+        version   = "3.3.3">
     <name>Diamond Academy Learning Mobile</name>
 
     <description>
         Diamond Bank Academy Mobile Learning App
     </description>
 
-    <author href="http://moodle.com" email="ashowemimo@diamondbank.com">
+    <author href="http://13.69.123.121" email="ashowemimo@diamondbank.com">
         Diamond Academy
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>3.3.2</string>
+        <string>3.3.3</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
