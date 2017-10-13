@@ -20,20 +20,7 @@
         <mm-loading hide-until="frontpageLoaded" loading-padding-top="loadingPaddingTop">
 
             <mma-frontpage-item ng-repeat="item in items" name="{{item}}"></mma-frontpage-item>
-			
-			
-			<div class="list list-home">
-				<a href="#" class="item item-thumbnail-left">
-
-				  <img src="intro-bg.jpg">
-				  <h2>Product Knowledge</h2>
-				  <h4>On the go access to all Diamond Bank Product Offerings</h4>
-				</a>
-
-			  </div>
-			
-         
-
+		
             <p class="padding" ng-if="!hasContent">{{ 'mm.course.nocontentavailable' | translate }}</p>
         </mm-loading>
     </ion-content>
