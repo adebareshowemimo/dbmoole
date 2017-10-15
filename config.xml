@@ -3,8 +3,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.diamondbankacademy.mlearn"
-        versionCode = "20180"
-        version   = "3.3.4">
+        versionCode = "201701"
+        version   = "3.3.5">
     <name>Diamond Academy Learning Mobile</name>
 
     <description>
@@ -16,7 +16,7 @@
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>3.3.4</string>
+        <string>3.3.5</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
